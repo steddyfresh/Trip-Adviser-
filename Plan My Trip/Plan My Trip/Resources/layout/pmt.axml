@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+    <ImageView
+        android:src="@drawable/ew"
+        android:layout_width="match_parent"
+        android:layout_height="66.7dp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="232.0dp"
+        android:id="@+id/listViewdisplay"
+        android:background="@android:color/darker_gray"
+        android:foreground="@android:color/black" />
+    <Button
+        android:text="GENERATE REPORT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonreport"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+</LinearLayout>

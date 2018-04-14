@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+    <ImageView
+        android:src="@drawable/ew"
+        android:layout_width="match_parent"
+        android:layout_height="52.0dp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY" />
+    <TextView
+        android:text="Search Destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/black"
+        android:inputType="none" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editTextsearch"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:inputType="text" />
+    <Button
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsearch"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="240.0dp"
+        android:id="@+id/listViewresult"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:foregroundTint="#000000ff" />
+</LinearLayout>

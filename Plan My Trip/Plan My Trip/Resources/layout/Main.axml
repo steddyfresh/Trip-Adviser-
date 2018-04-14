@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray">
+    <ImageView
+        android:src="@drawable/ew"
+        android:layout_width="match_parent"
+        android:layout_height="52.0dp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY" />
+    <TextView
+        android:text="Welcome to Plan My Trip,The smart system that makes your trip fun and very informative till you reach your destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:inputType="none"
+        android:layout_marginBottom="9.3dp" />
+    <CheckBox
+        android:text="New User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxnewuser"
+        android:textColor="@android:color/black"
+        android:checked="false"
+        android:inputType="none"
+        android:layout_marginBottom="8.0dp" />
+    <TextView
+        android:text="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2u"
+        android:textSize="15px"
+        android:textColor="@android:color/black"
+        android:inputType="none" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:id="@+id/editTextusername"
+        android:inputType="text"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:focusable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4p"
+        android:textSize="15px"
+        android:textColor="@android:color/black"
+        android:inputType="none" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:id="@+id/editTextpass"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="12.0dp"
+        android:inputType="text" />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonlogin"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp" />
+</LinearLayout>
